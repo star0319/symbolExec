@@ -1,0 +1,62 @@
+[
+{
+  "directory": "C:/Users/star/Desktop/symbol_exec/cmake-build-debug",
+  "command": "\"D:\\Program Files\\JetBrains\\CLion 2023.3.4\\bin\\mingw\\bin\\g++.exe\" -IC:/Users/star/Desktop/symbol_exec/libCFG/include -IC:/Users/star/Desktop/symbol_exec/libCFG/include/capstone -g -std=gnu++17 -fdiagnostics-color=always -o libCFG\\CMakeFiles\\CFG.dir\\src\\asm_cfg.cpp.obj -c C:\\Users\\star\\Desktop\\symbol_exec\\libCFG\\src\\asm_cfg.cpp",
+  "file": "C:\\Users\\star\\Desktop\\symbol_exec\\libCFG\\src\\asm_cfg.cpp",
+  "output": "libCFG\\CMakeFiles\\CFG.dir\\src\\asm_cfg.cpp.obj"
+},
+{
+  "directory": "C:/Users/star/Desktop/symbol_exec/cmake-build-debug",
+  "command": "\"D:\\Program Files\\JetBrains\\CLion 2023.3.4\\bin\\mingw\\bin\\g++.exe\" -IC:/Users/star/Desktop/symbol_exec/libCFG/include -IC:/Users/star/Desktop/symbol_exec/libCFG/include/capstone -g -std=gnu++17 -fdiagnostics-color=always -o libCFG\\CMakeFiles\\CFG.dir\\src\\libcfg_utils.cpp.obj -c C:\\Users\\star\\Desktop\\symbol_exec\\libCFG\\src\\libcfg_utils.cpp",
+  "file": "C:\\Users\\star\\Desktop\\symbol_exec\\libCFG\\src\\libcfg_utils.cpp",
+  "output": "libCFG\\CMakeFiles\\CFG.dir\\src\\libcfg_utils.cpp.obj"
+},
+{
+  "directory": "C:/Users/star/Desktop/symbol_exec/cmake-build-debug",
+  "command": "\"D:\\Program Files\\JetBrains\\CLion 2023.3.4\\bin\\mingw\\bin\\g++.exe\" -IC:/Users/star/Desktop/symbol_exec/libCFG/include -IC:/Users/star/Desktop/symbol_exec/libCFG/include/capstone -g -std=gnu++17 -fdiagnostics-color=always -o libCFG\\CMakeFiles\\cfgTest.dir\\src\\asm_cfg.cpp.obj -c C:\\Users\\star\\Desktop\\symbol_exec\\libCFG\\src\\asm_cfg.cpp",
+  "file": "C:\\Users\\star\\Desktop\\symbol_exec\\libCFG\\src\\asm_cfg.cpp",
+  "output": "libCFG\\CMakeFiles\\cfgTest.dir\\src\\asm_cfg.cpp.obj"
+},
+{
+  "directory": "C:/Users/star/Desktop/symbol_exec/cmake-build-debug",
+  "command": "\"D:\\Program Files\\JetBrains\\CLion 2023.3.4\\bin\\mingw\\bin\\g++.exe\" -IC:/Users/star/Desktop/symbol_exec/libCFG/include -IC:/Users/star/Desktop/symbol_exec/libCFG/include/capstone -g -std=gnu++17 -fdiagnostics-color=always -o libCFG\\CMakeFiles\\cfgTest.dir\\src\\libcfg_utils.cpp.obj -c C:\\Users\\star\\Desktop\\symbol_exec\\libCFG\\src\\libcfg_utils.cpp",
+  "file": "C:\\Users\\star\\Desktop\\symbol_exec\\libCFG\\src\\libcfg_utils.cpp",
+  "output": "libCFG\\CMakeFiles\\cfgTest.dir\\src\\libcfg_utils.cpp.obj"
+},
+{
+  "directory": "C:/Users/star/Desktop/symbol_exec/cmake-build-debug",
+  "command": "\"D:\\Program Files\\JetBrains\\CLion 2023.3.4\\bin\\mingw\\bin\\g++.exe\" -IC:/Users/star/Desktop/symbol_exec/libZ3/include -g -std=gnu++17 -fdiagnostics-color=always -o libZ3\\CMakeFiles\\Z3Solver.dir\\src\\z3Test.cpp.obj -c C:\\Users\\star\\Desktop\\symbol_exec\\libZ3\\src\\z3Test.cpp",
+  "file": "C:\\Users\\star\\Desktop\\symbol_exec\\libZ3\\src\\z3Test.cpp",
+  "output": "libZ3\\CMakeFiles\\Z3Solver.dir\\src\\z3Test.cpp.obj"
+},
+{
+  "directory": "C:/Users/star/Desktop/symbol_exec/cmake-build-debug",
+  "command": "\"D:\\Program Files\\JetBrains\\CLion 2023.3.4\\bin\\mingw\\bin\\g++.exe\" -IC:/Users/star/Desktop/symbol_exec/libZ3/include -g -std=gnu++17 -fdiagnostics-color=always -o libZ3\\CMakeFiles\\z3Test.dir\\src\\z3Test.cpp.obj -c C:\\Users\\star\\Desktop\\symbol_exec\\libZ3\\src\\z3Test.cpp",
+  "file": "C:\\Users\\star\\Desktop\\symbol_exec\\libZ3\\src\\z3Test.cpp",
+  "output": "libZ3\\CMakeFiles\\z3Test.dir\\src\\z3Test.cpp.obj"
+},
+{
+  "directory": "C:/Users/star/Desktop/symbol_exec/cmake-build-debug",
+  "command": "\"D:\\Program Files\\JetBrains\\CLion 2023.3.4\\bin\\mingw\\bin\\g++.exe\" -IC:/Users/star/Desktop/symbol_exec/libELF/include -g -std=gnu++17 -fdiagnostics-color=always -o libELF\\CMakeFiles\\ELF.dir\\src\\testELF.cpp.obj -c C:\\Users\\star\\Desktop\\symbol_exec\\libELF\\src\\testELF.cpp",
+  "file": "C:\\Users\\star\\Desktop\\symbol_exec\\libELF\\src\\testELF.cpp",
+  "output": "libELF\\CMakeFiles\\ELF.dir\\src\\testELF.cpp.obj"
+},
+{
+  "directory": "C:/Users/star/Desktop/symbol_exec/cmake-build-debug",
+  "command": "\"D:\\Program Files\\JetBrains\\CLion 2023.3.4\\bin\\mingw\\bin\\g++.exe\" -IC:/Users/star/Desktop/symbol_exec/libELF/include -g -std=gnu++17 -fdiagnostics-color=always -o libELF\\CMakeFiles\\elfTest.dir\\src\\testELF.cpp.obj -c C:\\Users\\star\\Desktop\\symbol_exec\\libELF\\src\\testELF.cpp",
+  "file": "C:\\Users\\star\\Desktop\\symbol_exec\\libELF\\src\\testELF.cpp",
+  "output": "libELF\\CMakeFiles\\elfTest.dir\\src\\testELF.cpp.obj"
+},
+{
+  "directory": "C:/Users/star/Desktop/symbol_exec/cmake-build-debug",
+  "command": "\"D:\\Program Files\\JetBrains\\CLion 2023.3.4\\bin\\mingw\\bin\\g++.exe\" -IC:/Users/star/Desktop/symbol_exec/symbolEXEC/include -IC:/Users/star/Desktop/symbol_exec/symbolEXEC/../libCFG/include -IC:/Users/star/Desktop/symbol_exec/symbolEXEC/../libCFG/include/capstone -g -std=gnu++17 -fdiagnostics-color=always -o symbolEXEC\\CMakeFiles\\SYMBOLEXEC.dir\\src\\symbolExecute.cpp.obj -c C:\\Users\\star\\Desktop\\symbol_exec\\symbolEXEC\\src\\symbolExecute.cpp",
+  "file": "C:\\Users\\star\\Desktop\\symbol_exec\\symbolEXEC\\src\\symbolExecute.cpp",
+  "output": "symbolEXEC\\CMakeFiles\\SYMBOLEXEC.dir\\src\\symbolExecute.cpp.obj"
+},
+{
+  "directory": "C:/Users/star/Desktop/symbol_exec/cmake-build-debug",
+  "command": "\"D:\\Program Files\\JetBrains\\CLion 2023.3.4\\bin\\mingw\\bin\\g++.exe\" -IC:/Users/star/Desktop/symbol_exec/symbolEXEC/include -IC:/Users/star/Desktop/symbol_exec/symbolEXEC/../libCFG/include -IC:/Users/star/Desktop/symbol_exec/symbolEXEC/../libCFG/include/capstone -g -std=gnu++17 -fdiagnostics-color=always -o symbolEXEC\\CMakeFiles\\symbolExec.dir\\src\\symbolExecute.cpp.obj -c C:\\Users\\star\\Desktop\\symbol_exec\\symbolEXEC\\src\\symbolExecute.cpp",
+  "file": "C:\\Users\\star\\Desktop\\symbol_exec\\symbolEXEC\\src\\symbolExecute.cpp",
+  "output": "symbolEXEC\\CMakeFiles\\symbolExec.dir\\src\\symbolExecute.cpp.obj"
+}
+]

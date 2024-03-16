@@ -1,0 +1,21 @@
+digraph "CFG for '_Z3fooii' function" {
+label="CFG for '_Z3fooii' function";
+Block37[shape=record, color="#3d50c3ff", style=filled, fillcolor="#b9d0f970",label="{B37\l 0x1193:   lea  rcx, [rip + 0xe6a]\l 0x119a:   mov  edx, 0x10\l 0x119f:   lea  rsi, [rip + 0xe71]\l 0x11a6:   lea  rdi, [rip + 0xe74]\l 0x11ad:   call  0x1050\l }"];
+Block37 -> Block38;
+Block38[shape=record, color="#3d50c3ff", style=filled, fillcolor="#b9d0f970",label="{B38\l 0x11b2:   nop  \l 0x11b3:   leave  \l 0x11b4:   ret  \l }"];
+Block38 -> Block32;
+Block36[shape=record, color="#3d50c3ff", style=filled, fillcolor="#b9d0f970",label="{B36\l 0x118b:   mov  eax, dword ptr [rbp - 8]\l 0x118e:   cmp  eax, dword ptr [rbp - 4]\l 0x1191:   jne  0x11b2\l }"];
+Block36 -> Block37;
+Block36 -> Block38;
+Block35[shape=record, color="#3d50c3ff", style=filled, fillcolor="#b9d0f970",label="{B35\l 0x117e:   mov  edx, dword ptr [rbp - 0x14]\l 0x1181:   mov  eax, dword ptr [rbp - 0x18]\l 0x1184:   add  eax, edx\l 0x1186:   add  eax, eax\l 0x1188:   mov  dword ptr [rbp - 8], eax\l }"];
+Block35 -> Block36;
+Block34[shape=record, color="#3d50c3ff", style=filled, fillcolor="#b9d0f970",label="{B34\l 0x116f:   mov  eax, dword ptr [rbp - 8]\l 0x1172:   add  eax, 3\l 0x1175:   mov  dword ptr [rbp - 4], eax\l 0x1178:   cmp  dword ptr [rbp - 0x18], 0\l 0x117c:   jne  0x118b\l }"];
+Block34 -> Block35;
+Block34 -> Block36;
+Block33[shape=record, color="#3d50c3ff", style=filled, fillcolor="#b9d0f970",label="{B33\l 0x1149:   endbr64  \l 0x114d:   push  rbp\l 0x114e:   mov  rbp, rsp\l 0x1151:   sub  rsp, 0x20\l 0x1155:   mov  dword ptr [rbp - 0x14], edi\l 0x1158:   mov  dword ptr [rbp - 0x18], esi\l 0x115b:   mov  dword ptr [rbp - 8], 1\l 0x1162:   mov  dword ptr [rbp - 4], 0\l 0x1169:   cmp  dword ptr [rbp - 0x14], 0\l 0x116d:   je  0x118b\l }"];
+Block33 -> Block34;
+Block33 -> Block36;
+Block32[shape=record, color="#3d50c3ff", style=filled, fillcolor="#b9d0f970",label="{_Z3fooii::EXIT\l }"];
+Block31[shape=record, color="#3d50c3ff", style=filled, fillcolor="#b9d0f970",label="{_Z3fooii::ENTRY\l }"];
+Block31 -> Block33;
+}

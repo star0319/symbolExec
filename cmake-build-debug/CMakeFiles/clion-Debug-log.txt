@@ -1,0 +1,8 @@
+"D:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Program Files/JetBrains/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\star\Desktop\symbol_exec -B C:\Users\star\Desktop\symbol_exec\cmake-build-debug
+-- Detecting SubModule libCFG
+-- Detecting SubModule libz3
+-- Detecting SubModule libELF
+-- Detecting SubModule symbolExec
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/star/Desktop/symbol_exec/cmake-build-debug
