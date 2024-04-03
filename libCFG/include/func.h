@@ -75,6 +75,9 @@ public:
 
         if(cs_open(CS_ARCH_X86, CS_MODE_64, &(this->handle)) != CS_ERR_OK)
             return false;
+        //new
+        if(cs_option(this->handle,CS_OPT_DETAIL,CS_OPT_ON) !=CS_ERR_OK)
+            return false;
 
         this->num_of_insn = cs_disasm(
             this->handle, reinterpret_cast<uint8_t*>(this->insn_buffer), 
@@ -83,6 +86,16 @@ public:
 
         return true;
     }
+
+    int cs_OP_Count( const cs_insn insn, unsigned int op_type){
+        return cs_op_count(this->handle,&insn,op_type);
+    }
+
+    int  cs_OP_Index(const cs_insn insn, unsigned int op_type,unsigned int position){
+        return cs_op_index(this->handle,&insn,op_type,position);
+
+    }
+
 
     bool constructCFG(uint32_t& serial_number) {
         if(!this->isParsed())

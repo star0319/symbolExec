@@ -25,6 +25,6 @@ add_executable(z3Test ${LIBZ3_SOURCE_FILES}
         #        ${LIBCFG_HEAD_FILES}
 )
 
-set(Z3_LIBRARIES ${CMAKE_CURRENT_SOURCE_DIR}/lib/libz3.lib)
+set(Z3_LIBRARIES ${CMAKE_CURRENT_SOURCE_DIR}/lib/libz3.a)
 target_link_libraries(z3Test ${Z3_LIBRARIES})
-
+target_link_libraries(z3Test pthread)

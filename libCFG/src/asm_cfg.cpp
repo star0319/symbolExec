@@ -8,7 +8,7 @@
 int cfgtest() {
 //    std::cout << "libCFG" << std::endl;
 
-    std::ifstream file("C:\\Users\\star\\Desktop\\symbol_exec\\symex-x86-stack", std::ios::binary); // 以二进制模式打开文件
+    std::ifstream file("../../symex-x86-stack", std::ios::binary); // 以二进制模式打开文件
 
     if (!file.is_open()) { // 检查文件是否成功打开
         std::cerr << "Unable to open file" << std::endl;
@@ -50,7 +50,7 @@ int cfgtest() {
     f.parse();
     f.constructCFG(f.num_of_insn);
 //    std::cout<<f.instructions<<std::endl;
-    const char *outputFile="C:\\Users\\star\\Desktop\\symbol_exec\\CFG\\addx_y.dot";
+    const char *outputFile="../../CFG/addx_y_linux.dot";
     freopen(outputFile,"w",stdout);
     f.cfg->to_dot();
 

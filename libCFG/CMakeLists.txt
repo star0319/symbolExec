@@ -24,6 +24,6 @@ add_library(
 add_executable(cfgTest ${LIBCFG_SOURCE_FILES}
 #        ${LIBCFG_HEAD_FILES}
 )
-
-target_link_libraries(cfgTest ${CMAKE_CURRENT_SOURCE_DIR}/lib/libcapstone.a)
+set(Capstone_LIBRARIES ${CMAKE_CURRENT_SOURCE_DIR}/lib/libcapstone.a)
+target_link_libraries(cfgTest ${Capstone_LIBRARIES})
 

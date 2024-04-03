@@ -10,8 +10,8 @@
 
 #include <iostream>
 #include <elfio/elfio_dump.hpp>
-
 using namespace ELFIO;
+
 
 int main( int argc, char** argv )
 {
@@ -19,9 +19,8 @@ int main( int argc, char** argv )
 //        printf( "Usage: elfdump <file_name>\n" );
 //        return 1;
 //    }
-
     elfio reader;
-    char * file="C:\\Users\\star\\Desktop\\symbol_exec\\symex-x86-stack";
+    char * file="../../symex-x86-stack";
     if ( !reader.load( file) ) {
         printf( "File %s is not found or it is not an ELF file\n", argv[1] );
         return 1;
