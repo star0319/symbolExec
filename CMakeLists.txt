@@ -13,3 +13,8 @@ add_subdirectory(symbolEXEC)
 add_executable(symmainStack symex.cpp
         #        ${LIBCFG_HEAD_FILES}
 )
+
+
+add_executable(symGlobalDemo global_demo.cpp
+        #        ${LIBCFG_HEAD_FILES}
+)

@@ -56,6 +56,9 @@ public:
     void update(x86_reg reg ,uint64_t data){
         registerMap[reg]=data;
     }
+
+    //TODO: get32   update32
+
 //    // 打印寄存器状态
     void printRegister(bool print) const {
         if (!print) return;
@@ -63,14 +66,12 @@ public:
         std::for_each(registerMap.begin(), registerMap.end(), [&](const auto &item) {
             std::cout<<"reg: " << cs_reg_name(f->handle,item.first) <<"  data: "<< std::hex << std::setw(16) << std::setfill('0')<<static_cast<int>(item.second)<< std::dec<<std::endl;
         });
-
     }
     void printRflags(bool print) const {
         if (!print) return;
         std::cout << "RFlags contents :" ;
         std::cout<<"  data: "<< std::hex << std::setw(16) << std::setfill('0')<<static_cast<int>(RFlags)<< std::dec<<std::endl;
     }
-
 
 
 

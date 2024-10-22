@@ -41,12 +41,12 @@
 },
 {
   "directory": "/root/remote_win/symbolExec/cmake-build-debug/symbolEXEC",
-  "command": "/usr/bin/c++  -I/root/remote_win/symbolExec/symbolEXEC/include -I/root/remote_win/symbolExec/symbolEXEC/../libCFG/include -I/root/remote_win/symbolExec/symbolEXEC/../libCFG/include/capstone -I/root/remote_win/symbolExec/symbolEXEC/../libCFG/include/nlohmann -g -o CMakeFiles/SYMBOLEXEC.dir/src/symbolExecute.cpp.o -c /root/remote_win/symbolExec/symbolEXEC/src/symbolExecute.cpp",
+  "command": "/usr/bin/c++  -I/root/remote_win/symbolExec/symbolEXEC/include -I/root/remote_win/symbolExec/symbolEXEC/../libCFG/include -I/root/remote_win/symbolExec/symbolEXEC/../libCFG/include/capstone -I/root/remote_win/symbolExec/symbolEXEC/../libCFG/include/nlohmann -I/root/remote_win/symbolExec/symbolEXEC/../libELF/include/elfio -I/root/remote_win/symbolExec/symbolEXEC/../libELF/include -g -o CMakeFiles/SYMBOLEXEC.dir/src/symbolExecute.cpp.o -c /root/remote_win/symbolExec/symbolEXEC/src/symbolExecute.cpp",
   "file": "/root/remote_win/symbolExec/symbolEXEC/src/symbolExecute.cpp"
 },
 {
   "directory": "/root/remote_win/symbolExec/cmake-build-debug/symbolEXEC",
-  "command": "/usr/bin/c++  -I/root/remote_win/symbolExec/symbolEXEC/include -I/root/remote_win/symbolExec/symbolEXEC/../libCFG/include -I/root/remote_win/symbolExec/symbolEXEC/../libCFG/include/capstone -I/root/remote_win/symbolExec/symbolEXEC/../libCFG/include/nlohmann -g -o CMakeFiles/symbolExec.dir/src/symbolExecute.cpp.o -c /root/remote_win/symbolExec/symbolEXEC/src/symbolExecute.cpp",
+  "command": "/usr/bin/c++  -I/root/remote_win/symbolExec/symbolEXEC/include -I/root/remote_win/symbolExec/symbolEXEC/../libCFG/include -I/root/remote_win/symbolExec/symbolEXEC/../libCFG/include/capstone -I/root/remote_win/symbolExec/symbolEXEC/../libCFG/include/nlohmann -I/root/remote_win/symbolExec/symbolEXEC/../libELF/include/elfio -I/root/remote_win/symbolExec/symbolEXEC/../libELF/include -g -o CMakeFiles/symbolExec.dir/src/symbolExecute.cpp.o -c /root/remote_win/symbolExec/symbolEXEC/src/symbolExecute.cpp",
   "file": "/root/remote_win/symbolExec/symbolEXEC/src/symbolExecute.cpp"
 }
 ]

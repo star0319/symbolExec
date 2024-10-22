@@ -29,6 +29,7 @@ std::vector<std::string> split(std::string str, std::string pattern)
 void printInsn(bool print,cs_insn insn){
     if(!print) return;
     std::cout << "0x" << libCFG:: dec_to_hex(insn.address) << ":   " << insn.mnemonic << "  " << insn.op_str<<std::endl;
+
 }
 void printPassedInsn(bool print,cs_insn insn){
     if(!print) return;

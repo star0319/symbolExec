@@ -38,9 +38,15 @@ int  addx_y (int a, int b){
 
 
 
-int main()
+
+int main(int argc, char** argv )
 {
-    int a=4,b=5;
+    int a=7,b=8;
+//    std:: cin>> a >>b;
+//std:: cout<<argv[1]<<std::endl;
+    a= atoi( argv[1]);
+    b= atoi( argv[2]);
+//    std:: cout<<"a    "<<a <<b<<std::endl;
     int sum= addx_y(a,b);
     assert(a+b==sum);
     return 0;
